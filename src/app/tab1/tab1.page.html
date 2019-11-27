@@ -13,33 +13,97 @@
 
 <ion-content>
   <ion-card class="welcome-card">
-    <img  src="https://media.licdn.com/dms/image/C560BAQEnYZHh3XuJCg/company-logo_200_200/0?e=2159024400&v=beta&t=21CgSnKEfIC8rscq8huVDIqHVxl_aPIQP_t7OVtkp58" class="cover" alt=""/>
-   <!--Home page information -->
     <ion-card-header>    
-      <ion-card-title class="ion-text-center">Welcome back to <br> GuardianLock</ion-card-title>
+    <ion-card-title class="ion-text-center"><b>Full-stack Developer</b></ion-card-title>
     </ion-card-header>
+    <div class="cover">
+    <img  src="..\assets\me.png"  alt="Oleksandr Zakirov" />
+    <h2><b>Oleksandr Zakirov</b></h2>
+    </div>
+    
+    <ion-card-content class="ion-text-center">    
+      <p>I'm a junior full-stack developer with experience in developing web and mobile applications
+      using programming languages such as Ionic, Angular, TypeScript, JavaScript, Java, SQL,
+      JQuery, Html, Css, Ajax, C++, Php, C and Python. As well as designing and managing
+      databases. I have good managing and communication skills obtained trough my
+      work experiences in sales, help desk and work projects.
+      <br> <br> <br>
+      I have volunteered in projects that interest me such as creating a blog for an environmental
+      project during my studies and a money management application for a startup company. I
+      am an ambitious and fast learning worker who is looking for opportunities to join inspiring
+      companies and do great things together.</p> <br><br><br>
+    </ion-card-content>
+  </ion-card>  
+
+  <!--Languages -->
+  <ion-card>
+    <ion-toolbar color="tertiary">
+    <ion-title class="ion-text-center"> Languages </ion-title>
+    </ion-toolbar>
+          
+    <ion-button class="languages" color="tertiary"><b>English</b></ion-button> <ion-button class="languages" color="warning" >
+    <!--1--><ion-icon name="happy" class="rating-positive"></ion-icon> 
+    <!--2--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    <!--3--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    <!--4--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    <!--5--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    </ion-button> 
+          
+    <ion-button class="languages" color="tertiary"><b>Portuguese</b></ion-button> <ion-button class="languages"color="warning" >
+    <!--1--><ion-icon name="happy" class="rating-positive"></ion-icon> 
+    <!--2--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    <!--3--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    <!--4--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    <!--5--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    </ion-button> 
       
-    <ion-card-content class="ion-text-center">
-        <p>Hello {{userEmail}}!</p>
-        <ion-card-subtitle class="ion-text-center"><a (click)="logout()" class="smaller">Not you?</a></ion-card-subtitle>
-        <br>
-        
-        <p>This is an app to help you to keep track of your passwords.</p>
-        <p>Do you strugle to remember your passwords? Do you have have a lot of accounts and you use
-        always the same password, because you're afraid to forget one?
-        Do you use weak passwords to not forget them?   </p>
-        <br>
-        <h2>GuardianLock is the solution!</h2><br>
-        <p>In GuardianLock you can easily save all your passwords and in a secure database.
-          This way you can always just come back and copy it. So there is no need to create weak passwords.
-          You can create complex and safe passwords and just save them in your GuardianLock, and then
-          come fetch them at any time!
-        </p> <br> <br>
+    <ion-button class="languages" color="tertiary"><b>Russian</b></ion-button> <ion-button class="languages"color="warning" >
+    <!--1--><ion-icon name="happy" class="rating-positive"></ion-icon> 
+    <!--2--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    <!--3--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    <!--4--><ion-icon name="happy" class="rating-neutral"></ion-icon>
+    <!--5--><ion-icon name="happy" class="rating-neutral"></ion-icon>
+    </ion-button> 
+    
+    <ion-button class="languages" color="tertiary"><b>Finnish</b></ion-button> <ion-button class="languages"color="warning" >
+    <!--1--><ion-icon name="happy" class="rating-positive"></ion-icon> 
+    <!--2--><ion-icon name="happy" class="rating-positive"></ion-icon>
+    <!--3--><ion-icon name="happy" class="rating-neutral"></ion-icon>
+    <!--4--><ion-icon name="happy" class="rating-neutral"></ion-icon>
+    <!--5--><ion-icon name="happy" class="rating-neutral"></ion-icon>
+    </ion-button> 
+  </ion-card>
+  
+  <!--Communication skills -->
+  <ion-card>
+    <ion-toolbar color="dark">
+    <ion-title class="ion-text-center"> Communication skills</ion-title>
+    </ion-toolbar>
+    
+    <p><li> Good comunication skills gained through my experience as a salesman</li></p>
+    <p><li>Secure in expressing clearly my ideas</li></p>
+    <p><li>Ease in communicating and negotiating with people</li></p>
+    <p><li>Comfort to speak to public</li></p>
+  </ion-card>
+    
+  <!--Technical skills -->
+  <ion-card>
+    <ion-toolbar color="medium">
+    <ion-title class="ion-text-center"> Technical Skills </ion-title>
+    </ion-toolbar>       
+  
+    <ion-button color="danger" >HTML</ion-button>
+    <ion-button color="tertiary" >CSS </ion-button>
+    <ion-button color="secondary" >PYTHON </ion-button>
+    <ion-button color="dark" >JAVA </ion-button>
+    <ion-button color="primary" >JAVA-SCRIPT </ion-button>
+    <ion-button color="success" >C </ion-button>
+    <ion-button color="medium" >C++ </ion-button>
+    <ion-button color="light" >Ionic </ion-button>
+    <ion-button color="secondary" >Angular </ion-button>
+    <ion-button color="tertiary" >TypeScript </ion-button>
+   
+  </ion-card>
 
-        <p>Watch this video to learn how to create a strong password.</p> <br>
-        <iframe  width="90%"  height="450px" src="https://www.youtube.com/embed/aEmF3Iylvr4"   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      </ion-card-content>
-    </ion-card>
-
+    
 </ion-content>

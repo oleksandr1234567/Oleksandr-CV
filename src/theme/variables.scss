@@ -4,17 +4,24 @@
 :root {
   /* Set the background of the entire app */
   --ion-background-color: #ffffff;
-  --ion-color-primary: #0404B4;
+  --ion-color-primary: rgb(0, 140, 255);
   --ion-color-primary-rgb: 235, 75, 88;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #e02525;
-  --ion-color-primary-tint: #d63737;
-  --ion-color-secondary: #e6bdb8;
+  --ion-color-primary-shade: #2557e0;
+  --ion-color-primary-tint: #3e7bfd;
+  --ion-color-secondary: #0051ff;
+  --ion-color-tertiary: rgb(31, 194, 31);
+  --ion-color-warning: white;
+  --ion-color-success: rgb(0, 255, 213);
   --ion-color-danger: #f0de41;
+  --ion-color-light: #9ef041;
+  --ion-color-dark: #090085;
+  --ion-color-medium:  #8615b3;
   /* Set the font family of the entire app */
   --ion-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Roboto", sans-serif;
 }
+
 
 
 /* Set text color of the entire app for iOS only */
@@ -27,3 +34,17 @@
   --ion-text-color: rgb(0, 0, 0);
 }
 
+///original color scheme
+//:root {
+  ///* Set the background of the entire app */
+//  --ion-background-color: #ffffff;
+//  --ion-color-primary: #0404B4;
+//  --ion-color-primary-rgb: 235, 75, 88;
+//  --ion-color-primary-contrast: #ffffff;
+//  --ion-color-primary-contrast-rgb: 255, 255, 255;
+//  --ion-color-primary-shade: #e02525;
+//  --ion-color-primary-tint: #d63737;
+//  --ion-color-secondary: #e6bdb8;
+//  --ion-color-danger: #f0de41;
+  /* Set the font family of the entire app */
+//  --ion-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Roboto", sans-serif;

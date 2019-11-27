@@ -1,5 +1,19 @@
 //<!--Oleksandr Zakirov 1802341-->
+ion-row {
+  background-image:url("src/assets/login.jpg");
+  opacity: 90%;
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(202, 202, 202);
+  max-width: 935px;
+}
 
+.larger {
+    font-size: 250%;
+    text-align: center;
+    color: white;
+  }
 
 .cover{
     width: 60%;
@@ -8,3 +22,14 @@
     margin-right: auto;
    
  }
+ .fields{
+  border-radius: 20px;
+  
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: medium;
+
+}

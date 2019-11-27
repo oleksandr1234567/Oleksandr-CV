@@ -1,20 +1,53 @@
 // Oleksandr Zakirov 1802341
 
-.fake-skeleton {
-    width: 60%;
+ion-card{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 3%;
+  font-size: 100%;
+  color: black;
+  background-color:white;
+ 
+  text-align: left;
+  
+  }	
+i{
+font-style: normal;
+  color : #007bff;
+  font-size: 80%;}
+
+h3{
+color: #007bff;
+font-size: 125%;}
+
+h4{
+color: #007bff;
+font-size:95%;}
+
+p{
+  text-align: justify;
+ 
 }
-.welcome-card img {
-    max-height: 35vh;
-    overflow: hidden;
-  }
 
-  .larger {
-    font-size: 18px;
-  }
+.project1{
+  background-image: url("https://economictimes.indiatimes.com/img/68721421/Master.jpg");
+}
 
-  .medium {
-    font-size: 15px;
-  }
-  .smaller {
-    font-size: 12px;
-  }
+.project2{
+  background-image: url("https://d1dh93s7n44ml6.cloudfront.net/blog/wp-content/uploads/2017/08/07042409/Consultant.jpg");
+}
+
+.project3{
+  background-image: url("https://knowledgesociety.com.au/wp-content/uploads/2018/11/service-design-4.jpg");
+}
+
+.window{
+  background-color: white;
+  opacity: 50%;
+  
+}
+
+
+
+
+

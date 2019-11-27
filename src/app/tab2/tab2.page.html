@@ -7,40 +7,107 @@
             <ion-icon slot="icon-only" name="ios-power"></ion-icon>
           </ion-button>
         </ion-buttons>
-    <ion-title >      My passwords    </ion-title>
+    <ion-title >      Work Experience    </ion-title>
   </ion-toolbar>
 </ion-header>
- 
-<ion-content>
 
-  <ion-list *ngFor="let item of todos"><!--Fetch from database-->
-    <p *ngIf="!todos || todos.length == 0" >&nbsp; You don't have any passwords saved yet.</p> <!--Message if database is empty-->
-    
-    <ion-item-sliding   >
-      <ion-item lines="inset" button [routerLink]="['/details', item.id]"><!--Rows-->
-        <ion-label class="larger">
-          {{ item.title }} <!--TITLE-->
-              <ion-label class="smaller" color="primary">
-                   {{ item.password }}<!--Password-->
-              <p class="smaller">{{ item.createdAt | date:'short' }}</p>
-            </ion-label>
-        </ion-label>
-       <!--Delete button-->
-        <ion-buttons slot="end">
-          <ion-button (click)="remove(item)">
-            <ion-icon color="danger" slot="icon-only" name="ios-trash"> </ion-icon>
-          </ion-button>
-        </ion-buttons>    
-      </ion-item>    
-    </ion-item-sliding>    
-   
-  </ion-list>
-  <!--Add new registry button-->
-  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
-    <ion-fab-button routerLink="/details" routerDirection="forward">
-      <ion-icon name="add"></ion-icon>
-    </ion-fab-button>
-  </ion-fab>
- 
+<!--Experience banner-->
+<ion-content>
+  <ion-toolbar color="medium">
+  <ion-title class="ion-text-center"> Relevant experience </ion-title>
+  </ion-toolbar> 
+
+<!--First Experience-->
+<ion-card> 
+    <i>20/09/2015 - 15/11/2015</i>
+    <h3>IT Technician / Helpdesk Technician </h3> 
+    <i> Tecnocom, Lisbon (Portugal)</i>
+    <section>    
+      <p>
+          I gained good communication skills by troubleshooting our customers IT problems remotely
+          while providing excellent customer service. If needed, I was responsible for sending local support for
+          technical issues.<br><br>
+          I managed accounts from ‘Galp Energia’ (National oil supplier) users and I also did computer
+          maintenance (set up new machines, installed software, connected them to the network).<br><br>
+          I helped to solve and answer any customers questions or doubts.
+      </p>
+    </section>
+  </ion-card> 
+  <!--Next Experience-->
+  <ion-card>
+    <i>16/07/2014 - 24/11/2014</i>
+    <h3> Programmer</h3> 
+    <i> Green Factory, Setúbal (Portugal)</i>
+    <section>    
+      <p>
+          I developed an online application similar to 'Nettiauto.fi' using several programming languages (Java,
+          Java-Script, Html, Php, MySql, Ajax, JQuery and CSS). In this job, I used Drupal and Joomla
+          technologies and NetBeans IDE. I also built and designed the database for the application. This job
+          also consisted of bug and troubleshooting solving.
+      </p>
+    </section>
+  </ion-card> 
+
+  <!--Next Experience-->
+  <ion-card>
+   <i>01/2014 - 03/2014</i>
+   <h3> IT Technician </h3> 
+   <i> Duba Metalomecânica, Setúbal (Portugal)</i>
+   <section>    
+    <p>
+        I was responsible for helping all employees with hardware or software problems and needs.
+        This included, for example, installing the latest operating systems in the machines that needed it, or
+        any other software that the employees would request. Another responsibility was using PHC software
+        for information management.<br><br>
+        I helped with hardware diagnostics and replacing, which helped to cut the company's costs down.
+    </p>
+   </section>
+  </ion-card>
+
+  <!--Next Experience-->
+  <ion-card>
+      <i>06/2013 - 07/2013</i>
+      <h3> IT Technician </h3> 
+      <i> Duba Metalomecânica, Setúbal (Portugal)</i>
+      <section>    
+       <p>
+          I developed a website for the company and put the company on Google maps, extending the reach
+          of the company for potential customers and helping the potential customers to get in contact with the
+          company.<br><br>
+          I was responsible for IT management in the company. I helped employees to fix IT-related problems,
+          keeping the flux of work going as smoothly as possible. This included installing and configuring
+          software, troubleshooting and hardware maintenance.
+       </p>
+      </section>
+     </ion-card> <br>
+<!--Projects banner-->
+  <ion-toolbar color="dark">
+  <ion-title class="ion-text-center"> Relevant projects </ion-title>
+  </ion-toolbar>
+
+  <ion-card class="project1">
+    <p>
+      I developed an enviromental blog for my school. This blog is still in use to this day.
+      This was my first project for a company ever. It is a small and easy project, but I take 
+      pride in the fact that is still usefull to this day.
+    </p>
+  </ion-card>
+
+  <ion-card class="project2">
+      <p>
+        Currently I am developing a website about money management for a startup company. And in the future 
+        I will also develop a mobile application as continution of the project. With this project a gained
+        good managing skills and reinforced my team working skills.
+      </p>
+  </ion-card>
+
+  <ion-card class="project3">
+        <p>
+        I did a sprint week in Belgium (November 2019) to design a service for Telia Finland.
+        This oportunity was excelent to get to know new inovative processes to develop a product
+        or a service, which will benefit my carrear and improve my judgment.
+        </p>
+  </ion-card>
+
 </ion-content>
 
