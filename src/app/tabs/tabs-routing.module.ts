@@ -20,7 +20,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'myperson',
+        path: 'experience',
         children: [
           {
             path: '',
@@ -30,7 +30,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'about',
+        path: 'education',
         children: [
           {
             path: '',
